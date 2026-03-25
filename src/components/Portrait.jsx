@@ -1,12 +1,10 @@
-// Replace the import below with your actual profile picture asset
-// import pfp from '../assets/pfp3.jpg';
+import pfp from '../assets/pfp3.jpg';
 
 function Portrait() {
   return (
     <div className="text-center my-5">
-      {/* Replace src with your imported pfp image: src={pfp} */}
       <img
-        src="https://via.placeholder.com/150"
+        src={pfp}
         className="rounded-circle border border-dark"
         alt="avatar"
         width="150"

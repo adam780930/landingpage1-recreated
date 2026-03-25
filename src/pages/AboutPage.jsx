@@ -1,6 +1,5 @@
 import ReactMarkdown from 'react-markdown';
-
-// Import your actual photo: import pfp2 from '../assets/pfp2.jpg';
+import pfp2 from '../assets/pfp2.jpg';
 
 const aboutMeContent = `I am a passionate, highly motivated and self-driven Full-Stack software engineer living in California. My primary dev stack are: JavaScript, TypeScript, React, Angular, HTML, CSS, Rest API, Node, Express, and PostgreSQL.
 
@@ -14,9 +13,8 @@ function AboutPage() {
       <div className="container-lg my-auto">
         <div className="row py-5">
           <div className="col-6">
-            {/* Replace src with your imported pfp2 image: src={pfp2} */}
             <img
-              src="https://placehold.co/600x800?text=Photo"
+              src={pfp2}
               className="col-12 bg-light border border-dark rounded img-fluid"
               alt="Adam Tsai"
             />
